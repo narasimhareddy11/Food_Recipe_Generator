@@ -1,0 +1,71 @@
+.form-container {
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 12px;
+    padding: 40px;
+    background-color: #1a202c;
+    border: 2px solid #4a5568;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.form-group {
+    margin: 30px;
+}
+.label {
+    display: block;
+    font-size: 1.2rem;
+    font-family: 'Dela Gothic One', cursive;
+    color: #ffffff;
+}
+.form-input,
+.select-menu {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background-color: #2d3748;
+    color: black;
+}
+.submit-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 12px;
+}
+
+.submit-button:hover {
+    background-color: #45a049;
+}
+
+/* Media Queries for responsiveness */
+
+@media (max-width: 768px) {
+    .form-container {
+        padding: 10px;
+    }
+
+    .form-group {
+        flex-direction: column;
+    }
+
+    .label {
+        margin-bottom: 0.5rem;
+    }
+
+    .form-input,
+    .select-menu {
+        width: 100%;
+    }
+
+    .submit-button {
+        width: 100%;
+    }
+}

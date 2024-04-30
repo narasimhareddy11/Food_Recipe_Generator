@@ -1,0 +1,48 @@
+.navbar {
+    background-color: #020817;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+}
+
+.brand-title {
+    font-size: 30px;
+    font-family: 'Dela Gothic One', cursive;
+    color: #ffffff;
+    margin: 0;
+}
+
+.brand-highlight {
+    background: linear-gradient(to right, #4B5563, #7F9CF5);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-link {
+    margin-right: 20px;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.nav-link a:hover {
+    color: #7F9CF5;
+}
